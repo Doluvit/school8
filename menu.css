@@ -101,11 +101,11 @@
 #menu-left>li li{
     min-width: 250px;
 }
-///////////////////////////
+
 #menu-left>li>a{
-    color: #5C4E33;
+    color: #FFF;
 }
-//////////////////////////
+
 #menu-left li>*{
     display: block;
 }
