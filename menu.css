@@ -90,6 +90,7 @@
     margin: 5px 0;
     padding: 3px 0;
     border: 2px solid #5C4E33;
+    border-radius: 5px;
     color:#FFF;
     font-size: 14px;
 }
@@ -100,9 +101,11 @@
 #menu-left>li li{
     min-width: 250px;
 }
+///////////////////////////
 #menu-left>li>a{
-    color: #FFF;
+    color: #5C4E33;
 }
+//////////////////////////
 #menu-left li>*{
     display: block;
 }

@@ -10,7 +10,7 @@ body{background:#EFEBE2; width: 1200px; margin: 0 auto;}
 #left{width:330px; float:left; padding:15px; background: #FFF; min-height: 1000px;}
 #left .panel-body{padding: 10px 5px;}
 .panel-heading{background:#EFEBE2 !important;}
-#right{margin-left:340px; padding:15px; background: #e9f092; border:1px solid #dedddd; min-height: 1000px; overflow: hidden;}
+#right{margin-left:340px; padding:15px; background: #FFF; border:1px solid #dedddd; min-height: 1000px; overflow: hidden;}
 #right p{text-indent: 30px;}
 #right ul, #right ol{margin-left: 30px;}
 h1, h2{font-size: 22px; margin-top: 0; padding: 10px 15px; background: #EFEBE2; border-bottom: 1px solid #5C4E33; text-transform: uppercase;}
