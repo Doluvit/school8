@@ -87,17 +87,19 @@
 }
 
 #menu-left > li {
-  background: #967f53;
+  background: #d6bb89;
   margin: 5px 0;
   padding: 3px 0;
   border: 2px solid #5c4e33;
-  border-radius: 15px;
+  border-radius: 5px;
   color: #fff;
   font-size: 14px;
 }
 #menu-left .ui-state-active {
   background: #efebe2;
   border: none;
+  border-radius: 5px;
+   color: #5c4e33;
 }
 #menu-left > li li {
   min-width: 250px;
@@ -113,10 +115,7 @@
 #menu-left a {
   text-decoration: none;
 }
-#menu-left .ui-state-active {
-  border-radius: 15px;
-   color: #5c4e33;
-}
+
 
 /*----------------------------TOP--------------------------------*/
 
