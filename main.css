@@ -85,3 +85,7 @@ table.gray td {
 .f30>div:first-child{
     margin-left: 0;
 }
+
+.ui-widget-content{
+    background: #5B4D33;
+}
