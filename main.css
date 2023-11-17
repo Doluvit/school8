@@ -172,9 +172,8 @@ table.gray td {
 }
 
 .ui-menu .ui-menu {
-  background: #967f53;
+  background: #d6bb89;
   border: 2px solid #5c4e33;
-  border-radius: 15px;
-  left: 15px;
+  border-radius: 5px;
 }
 
