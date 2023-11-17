@@ -113,8 +113,9 @@
 #menu-left a {
   text-decoration: none;
 }
-.ui-state-active {
-    color: #5c4e33;
+#menu-left .ui-state-active {
+  border-radius: 15px;
+   color: #5c4e33;
 }
 
 /*----------------------------TOP--------------------------------*/
