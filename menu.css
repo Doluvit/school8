@@ -113,6 +113,9 @@
 #menu-left a {
   text-decoration: none;
 }
+.ui-state-active {
+    color: #5c4e33;
+}
 
 /*----------------------------TOP--------------------------------*/
 
