@@ -201,7 +201,7 @@
   padding-left: 20px;
 }
 
-.cardDescriptionName {
+#right p.cardDescriptionName {
   text-indent: 0;
   font-size: 24px;
   font-family: san-serif;
@@ -210,7 +210,7 @@
   margin: 0;
 }
 
-.cardDescription {
+#right p.cardDescription {
   text-indent: 0;
   font-size: 24px;
   font-family: san-serif;
