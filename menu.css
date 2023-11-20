@@ -221,3 +221,9 @@
   font-style: normal;
   font-weight: 400;
 }
+
+.cardSocialWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
