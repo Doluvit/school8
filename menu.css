@@ -99,7 +99,7 @@
   background: #efebe2;
   border: none;
   border-radius: 5px;
-   color: #5c4e33;
+  color: #5c4e33;
 }
 #menu-left > li li {
   min-width: 250px;
@@ -115,7 +115,6 @@
 #menu-left a {
   text-decoration: none;
 }
-
 
 /*----------------------------TOP--------------------------------*/
 
@@ -177,7 +176,14 @@
 }
 
 .cardImg {
-  border-radius: 15px; 
-  object-fit: cover;  
+  border-radius: 15px;
+  object-fit: cover;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardTitle {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: san-serif;
+  color: #5c4e33;
 }
