@@ -175,6 +175,16 @@
   color: #fff;
 }
 
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardContainer {
+  display: flex;
+}
+
 .cardImg {
   border-radius: 15px;
   object-fit: cover;
@@ -186,4 +196,28 @@
   font-weight: 600;
   font-family: san-serif;
   color: #5c4e33;
+}
+.cardDescriptionContainer {
+  padding-left: 20px;
+}
+
+.cardDescriptionName {
+  text-indent: 0;
+  font-size: 24px;
+  font-family: san-serif;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cardDescription {
+  text-indent: 0;
+  font-size: 24px;
+  font-family: san-serif;
+  margin: 0;
+}
+
+.cardText {
+  font-style: normal;
+  font-weight: 400;
 }
