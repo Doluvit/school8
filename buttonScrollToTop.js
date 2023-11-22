@@ -18,7 +18,7 @@ function setupScrollToTopButton() {
 }
 
 function scrollToTopFunction() {
-  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
     document.getElementById("scrollToTopBtn").style.display = "block";
   } else {
     document.getElementById("scrollToTopBtn").style.display = "none";
