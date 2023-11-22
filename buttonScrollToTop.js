@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+  setupScrollToTopButton();
+});
+
 function setupScrollToTopButton() {
   let buttonToTop = document.createElement("button");
   buttonToTop.innerHTML = "toTop";
@@ -15,9 +19,9 @@ function setupScrollToTopButton() {
 
 function scrollToTopFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    buttonToTop.style.display = "block";
+    document.getElementById("scrollToTopBtn").style.display = "block";
   } else {
-    buttonToTop.style.display = "none";
+    document.getElementById("scrollToTopBtn").style.display = "none";
   }
 }
 
@@ -26,4 +30,3 @@ function scrollToTop() {
   document.documentElement.scrollTop = 0;
 }
 
-setupScrollToTopButton();
