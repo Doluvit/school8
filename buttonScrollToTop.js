@@ -18,7 +18,7 @@ function setupScrollToTopButton() {
 }
 
 function scrollToTopFunction() {
-  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     document.getElementById("scrollToTopBtn").style.display = "block";
   } else {
     document.getElementById("scrollToTopBtn").style.display = "none";
@@ -26,7 +26,9 @@ function scrollToTopFunction() {
 }
 
 function scrollToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 }
 
