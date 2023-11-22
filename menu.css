@@ -208,6 +208,15 @@
   margin: 0;
 }
 
+.cardDescriptionName {
+  text-indent: 0;
+  font-size: 24px;
+  font-family: san-serif;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0;
+}
+
 #right p.cardDescriptionName {
   text-indent: 0;
   font-size: 24px;
