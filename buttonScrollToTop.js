@@ -1,14 +1,23 @@
-let mybutton = document.getElementById("scrollToTopBtn");
+function setupScrollToTopButton() {
+  let buttonToTop = document.createElement("button");
+  buttonToTop.innerHTML = "toTop";
+  buttonToTop.id = "scrollToTopBtn";
+  buttonToTop.title = "GoToTop";
+  buttonToTop.style.display = "none";
+  buttonToTop.addEventListener("click", scrollToTop);
 
-window.onscroll = function () {
-  scrollFunction();
-};
+  document.body.appendChild(buttonToTop);
 
-function scrollFunction() {
+  window.onscroll = function () {
+    scrollToTopFunction();
+  };
+}
+
+function scrollToTopFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    buttonToTop.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    buttonToTop.style.display = "none";
   }
 }
 
@@ -16,3 +25,5 @@ function scrollToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+setupScrollToTopButton();
