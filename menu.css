@@ -259,13 +259,13 @@
   font-size: 16px;
   border: none;
   outline: none;
-  background-color: #007bff;
+  background-color: #967f53;
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 #scrollToTopBtn:hover {
-  background-color: #0056b3;
+  background-color: #5c4e33;
 }

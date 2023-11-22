@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function setupScrollToTopButton() {
   let buttonToTop = document.createElement("button");
-  buttonToTop.innerHTML = "toTop";
+  buttonToTop.innerHTML = "Нагору";
   buttonToTop.id = "scrollToTopBtn";
   buttonToTop.title = "GoToTop";
   buttonToTop.style.display = "none";
@@ -18,7 +18,7 @@ function setupScrollToTopButton() {
 }
 
 function scrollToTopFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     document.getElementById("scrollToTopBtn").style.display = "block";
   } else {
     document.getElementById("scrollToTopBtn").style.display = "none";
