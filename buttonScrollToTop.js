@@ -12,23 +12,24 @@ function setupScrollToTopButton() {
 
   document.body.appendChild(buttonToTop);
 
-  window.onscroll = function () {
-    scrollToTopFunction();
-  };
+  window.addEventListener("scroll", scrollToTopFunction);
 }
 
 function scrollToTopFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    document.getElementById("scrollToTopBtn").style.display = "block";
+  let buttonToTop = document.getElementById("scrollToTopBtn");
+  if (
+    document.body.scrollTop > 400 ||
+    document.documentElement.scrollTop > 400
+  ) {
+    buttonToTop.style.display = "block";
   } else {
-    document.getElementById("scrollToTopBtn").style.display = "none";
+    buttonToTop.style.display = "none";
   }
 }
 
 function scrollToTop() {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth'
+    behavior: "smooth",
   });
 }
-
