@@ -178,3 +178,6 @@ table.gray td {
   border-radius: 5px;
 }
 
+.ui-widget {
+  font-family: inherit;
+}
