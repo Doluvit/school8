@@ -24,7 +24,7 @@
   cursor: pointer;
 }
 
-#menu > ul > li > a:before{
+#menu > ul > li > a:after{
 content: "|";
 }
 
