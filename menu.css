@@ -15,17 +15,19 @@
 }
 #menu > ul > li > a,
 #menu > ul > li > span {
-  color: #999;
-  color: #fff;
+  /* color: #999; */
+  color: #5B4D33;
   font-weight: bold;
   margin: 0 8px;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
 }
-#menu > ul > li > a::before{
+
+#menu > ul > li > a:before{
 content: "|";
 }
+
 #menu > ul > li > a:hover,
 #menu > ul > li > span:hover {
   color: #999;
