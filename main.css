@@ -63,8 +63,9 @@ body {
 }
 h1,
 h2 {
-  font-family: sans-serif;
+  font-family: "Verdana", sans-serif;
   font-size: 22px;
+  font-weight: 600;
   margin-top: 0;
   padding: 10px 15px;
   background: #efebe2;
