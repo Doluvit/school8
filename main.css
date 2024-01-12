@@ -4,13 +4,8 @@
 }
 html,
 body {
-  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-family: "Verdana", sans-serif;
   min-width: 1201px;
-}
-body {
-  background: #5b4d33;
-  width: 1200px;
-  margin: 0 auto;
 }
 body {
   background: #efebe2;
