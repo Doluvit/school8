@@ -24,9 +24,9 @@
   cursor: pointer;
 }
 
-#menu-top > li:after{
+/* #menu-top > li:before{
 content: "|";
-}
+} */
 
 #menu > ul > li > a:hover,
 #menu > ul > li > span:hover {
