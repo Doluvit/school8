@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function setupScrollToTopButton() {
   let buttonToTop = document.createElement("button");
   buttonToTop.innerHTML =
-    '<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 30 30" <path d="M8 0a.5.5 0 0 1 .5.5V14a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 8 0zM4.354 4.854a.5.5 0 0 1 .793-.793L8 7.207l2.854-2.853a.5.5 0 0 1 .793.793L8.707 8l2.147 2.146a.5.5 0 0 1-.793.793L8 8.707 5.146 11.56a.5.5 0 1 1-.793-.793L7.293 8 4.354 5.146a.5.5 0 0 1 0-.793z"/></svg>';
+    '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 20 20"><path d="M8 0a.5.5 0 0 1 .5.5V14a.5.5 0 0 1-1 0V.5A.5.5 0 0 1 8 0zM4.354 4.854a.5.5 0 0 1 .793-.793L8 7.207l2.854-2.853a.5.5 0 0 1 .793.793L8.707 8l2.147 2.146a.5.5 0 0 1-.793.793L8 8.707 5.146 11.56a.5.5 0 1 1-.793-.793L7.293 8 4.354 5.146a.5.5 0 0 1 0-.793z"/></svg>';
   buttonToTop.id = "scrollToTopBtn";
   buttonToTop.title = "GoToTop";
   buttonToTop.style.display = "none";
